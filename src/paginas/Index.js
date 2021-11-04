@@ -81,7 +81,9 @@ export default function Index(props) {
             exact
             path={"/"}
             render={() => (
-              <Main/>
+              <Main
+              history={props.history}
+              />
               
             )}
           ></Route>

@@ -142,6 +142,7 @@ export default function MiniDrawer(props) {
       alert(error.message);
     }
     props.history.push("/");
+    //console.log(props);
   };
 
   return (
